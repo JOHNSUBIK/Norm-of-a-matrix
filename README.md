@@ -13,17 +13,42 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 # Register No:
 # Developed By:
 # 1-Norm of a Matrix
-
+##Program to find the 1-norm of a matrix
+#Developed by:John Paul J
+#Register no:212223230093
+import numpy as np
+mat=np.array(eval(input()))
+ans=np.linalg.norm(mat,1)
+norm_of_matrix="{:.2f}".format(ans)
+print(norm_of_matrix)
 
 
 
 # 2-Norm of a Matrix
-
+'''
+Program to find 2-norm of a matrix.
+Developed by:John Paul J
+RegisterNumber: 212223230093
+'''
+import numpy as np
+mat=np.array(eval(input()))
+ans=np.linalg.norm(mat,2)
+norm_of_matrix="{:.2f}".format(ans)
+print(norm_of_matrix)
 
 
 
 # Infinity Norm of a Matrix
-
+'''
+Program to find 2-norm of a matrix.
+Developed by:John Paul J
+RegisterNumber: 212223230093
+'''
+import numpy as np
+mat=np.array(eval(input()))
+ans=np.linalg.norm(mat,np.inf)
+norm_of_matrix="{:.2f}".format(ans)
+print(norm_of_matrix)
 
 
 
@@ -31,17 +56,20 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 ```
 ## Output:
 ### 1-Norm of a Matrix
-<br>
+<br>![output1](https://github.com/JOHNSUBIK/Norm-of-a-matrix/assets/150279319/0b889daf-fa36-4825-a6e4-37158d58105b)
+
 <br>
 <br>
 
 ### 2-Norm of a Matrix
-<br>
+<br>![output2](https://github.com/JOHNSUBIK/Norm-of-a-matrix/assets/150279319/98336925-5d2d-4da5-bba7-6b78e5930d72)
+
 <br>
 <br>
 
 ### Infinity Norm of a Matrix
-<br>
+<br>![output3](https://github.com/JOHNSUBIK/Norm-of-a-matrix/assets/150279319/2f0a8260-259e-43ad-8b36-f02ea2fc981a)
+
 <br>
 <br>
 
